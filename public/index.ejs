@@ -1,0 +1,59 @@
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="preconnect" href="/" crossorigin />
+  <link rel="dns-prefetch" href="/" />
+  <style>
+    body {
+      background-color: #f4f4f4
+    }
+
+    #start-up {
+      width: 11rem;
+      height: 11rem;
+      background-image: url(/assets/init/init_w.png);
+      background-size: contain;
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      margin: -5.5rem 0 0 -5.5rem
+    }
+
+    .dark #start-up {
+      background-image: url(/assets/init/init.png)
+    }
+
+    .dark body {
+      background-color: #232626
+    }
+
+    #start-up.festival {
+      background-image: url(/assets/init/init_w_festival.png)
+    }
+
+    .dark #start-up.festival {
+      background-image: url(/assets/init/init_festival.png)
+    }
+  </style>
+  <script>const setting = localStorage.getItem('setting');
+
+    document.documentElement.classList.toggle(
+      'dark',
+      setting ? JSON.parse(setting).darken : false
+    );</script>
+  <script>window.OneSignalDeferred = window.OneSignalDeferred || [];</script>
+  <script type="module" crossorigin src="/assets/index-CYisxgcc.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vendor-DPHX6XRs.js">
+  <link rel="modulepreload" crossorigin href="/assets/common-CGW8ip2_.js">
+  <link rel="manifest" href="/manifest.webmanifest">
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript><noscript><iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-TR7QDQDP" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <div id="root"></div>
+  <div id="start-up"></div>
+  <link rel="stylesheet" href="/assets/index-DhofX6xQ.css" id="css-main" crossorigin>
+</body>
+
+</html>

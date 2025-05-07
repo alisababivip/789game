@@ -1,0 +1,1 @@
+import{c as a}from"./solid-js-9bdbdf5e.js";import{n as o,a as t,s as i,i as e,k as r,b as n}from"./kr-config-c4c38b86.js";import"./i18n-98ba7270.js";import"./manifest-04ceac01.js";import"./http-f69dd5cf.js";const y=s=>a(()=>p[s.type]()),p={nonDeposit:o,casino:t,sport:i,invitationBase:e,krCasino:r,krDaily:n};export{p as T,y as c};

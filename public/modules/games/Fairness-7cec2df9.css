@@ -1,0 +1,17 @@
+.fgd28mj {
+    --1abnjtw: rgba(233, 234, 242, .6);
+    width: 14.375rem;
+    height: 11.25rem;
+    background-color: var(--1abnjtw);
+    border-radius: var(--border-radius);
+    padding: 1.25rem;
+    color: #fff;
+    line-height: 8.75rem;
+    text-align: center;
+    font-size: 1.125rem;
+    white-space: nowrap
+}
+
+.darken .fgd28mj {
+    --1abnjtw: #1e2024
+}

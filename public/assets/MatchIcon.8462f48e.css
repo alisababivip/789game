@@ -1,0 +1,16 @@
+.ig2udpo {
+    --1nfs066: #9FA5AC;
+    width: 1.4em;
+    height: 1.4em;
+    fill: var(--1nfs066)
+}
+
+.darken .ig2udpo {
+    --1nfs066: #67707B
+}
+
+.ig2udpo.racing-horse-svg {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3)
+}

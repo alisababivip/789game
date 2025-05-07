@@ -1,0 +1,1 @@
+import{d as r,f as t,i as s,c as n,a as o}from"./i18n-98ba7270.js";import{c,a5 as m}from"./manifest-04ceac01.js";var i=o("<div>");const d=a=>(()=>{var e=i();return r(e,t(a,{get class(){return c("center p-4",a.class)}}),!1,!0),s(e,n(m,{})),e})();export{d as C};

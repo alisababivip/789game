@@ -1,0 +1,216 @@
+.sfgio8q {
+    --2xdfuk: #F05858;
+    --1e4h6p6: #ffffff;
+    --15526kf: #31373D;
+    background: var(--2xdfuk);
+    text-align: center;
+    height: 56px;
+    line-height: 56px;
+    color: var(--1e4h6p6);
+    cursor: pointer
+}
+
+.darken .sfgio8q {
+    --2xdfuk: #f53202;
+    --1e4h6p6: #E6EFF6;
+    --15526kf: #98A7B5
+}
+
+@media screen and (max-width:621px) {
+    .sfgio8q {
+        margin-top: .875rem;
+        background-color: transparent;
+        height: auto;
+        line-height: .875rem;
+        color: var(--15526kf);
+        text-align: left;
+        padding: 1rem
+    }
+}
+
+.soflym9 {
+    --11qnoe7: #ffffff;
+    --1kkptji: #ffffff;
+    --1ngi5im: #1D1D1D;
+    --y9q0lf: #dadde6;
+    --4f3uot: rgba(0, 0, 0, .1);
+    --xlu5q4: linear-gradient(to top, #f6f7fa, rgba(255, 255, 255, .1))
+}
+
+.darken .soflym9 {
+    --11qnoe7: #1c1e22;
+    --1kkptji: #2D3035;
+    --1ngi5im: #D4D9E6;
+    --y9q0lf: #2D3035;
+    --4f3uot: #2D3035;
+    --xlu5q4: linear-gradient(to top, #23262c, rgba(35, 38, 44, .1))
+}
+
+.soflym9.page-max-width-wrap {
+    padding-top: 2.375rem
+}
+
+.soflym9 .related-game {
+    margin-top: 2.5rem
+}
+
+.soflym9 .filter-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 1.25rem
+}
+
+.soflym9 .filter-wrap .label {
+    display: none
+}
+
+.soflym9 .filter-wrap .ui-select {
+    min-width: 9.125rem
+}
+
+.soflym9 .filter-wrap .ui-select .select-trigger {
+    padding-right: 2.5rem
+}
+
+.soflym9 .filter-wrap a {
+    color: var(--primary-color)
+}
+
+.soflym9 .loading {
+    height: 12.5rem
+}
+
+.soflym9 button .loading {
+    height: auto
+}
+
+.soflym9 .provider .mark {
+    position: relative
+}
+
+.soflym9 .provider .mark:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3.125rem;
+    background-image: var(--xlu5q4)
+}
+
+.soflym9 .provider .provider-tit {
+    font-size: 16px;
+    color: var(--title-color);
+    margin-top: 43px
+}
+
+.soflym9 .provider .provider-cont {
+    margin-top: 8px;
+    opacity: .8;
+    white-space: pre-line
+}
+
+.soflym9 .provider .provider-detail {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 1.25rem
+}
+
+.soflym9 .provider .provider-detail .provider-img-wrap {
+    width: 8.25rem;
+    height: 8.25rem;
+    background-color: var(--11qnoe7);
+    display: block;
+    border-radius: 50%;
+    border: .1875rem solid var(--y9q0lf);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.soflym9 .provider .provider-detail .provider-img-wrap .provider-img {
+    width: 100%
+}
+
+.soflym9 .provider .provider-detail .provider-name {
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--title-color)
+}
+
+.soflym9 .provider .provider-detail .provider-wrap {
+    margin-left: 38px
+}
+
+.soflym9 .provider .provider-detail .provier-cont {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -10px
+}
+
+.soflym9 .provider .provider-detail .provier-cont .block {
+    padding: 0 10px
+}
+
+.soflym9 .tit {
+    font-size: 1.25rem;
+    color: var(--title-color);
+    margin-top: 1.25rem
+}
+
+@media screen and (max-width:621px) {
+    .soflym9.page-max-width-wrap {
+        padding: 1.25rem .75rem 0
+    }
+    .soflym9 .tit {
+        font-size: 1.125rem
+    }
+    .soflym9 .category {
+        margin-top: 2rem
+    }
+    .soflym9 .provider-game-list {
+        margin-top: .75rem
+    }
+    .soflym9 .provider {
+        margin-top: 0
+    }
+    .soflym9 .provider .provider-detail .provider-img-wrap {
+        width: 6.875rem;
+        height: 6.875rem
+    }
+    .soflym9 .provider .provider-detail .provider-wrap {
+        margin-left: 1.25rem
+    }
+    .soflym9 .provider .provider-detail .provider-name {
+        font-size: 1.25rem
+    }
+}

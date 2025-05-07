@@ -1,0 +1,1 @@
+import{d as a,f as m,a as o}from"./i18n-98ba7270.js";import{a6 as c}from"./manifest-04ceac01.js";import{j as i}from"./solid-js-9bdbdf5e.js";var f=o("<img>");const d=r=>{const s=c(()=>r.src,`w=${r.width}`),[l,e]=i(r,["src","width"]);return(()=>{var t=f();return a(t,m(e,{get src(){return s()}}),!1,!1),t})()};export{d as I};

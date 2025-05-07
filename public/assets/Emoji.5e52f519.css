@@ -1,0 +1,119 @@
+.e2ch0f {
+    --b3bcnh: #e9eaf2;
+    --k2vkir: rgba(174, 179, 194, .8);
+    --pg0941: #7bc514;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.darken .e2ch0f {
+    --b3bcnh: #17181B;
+    --k2vkir: rgba(153, 164, 176, .6);
+    --pg0941: #f5f6f7
+}
+
+.e2ch0f .emoji-btn-wrap {
+    position: relative
+}
+
+.e2ch0f .emoji-box-wrap {
+    width: 280px;
+    height: 200px;
+    background-color: var(--b3bcnh);
+    box-shadow: 0 2px 12px #0000004d;
+    padding: 10px 10px 40px;
+    border-radius: var(--border-radius);
+    position: absolute;
+    bottom: 2.8125rem;
+    left: -250px;
+    z-index: 2
+}
+
+.e2ch0f .emoji-box-wrap:after {
+    content: "";
+    position: absolute;
+    bottom: -1.25rem;
+    left: 15.625rem;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: var(--b3bcnh)
+}
+
+.e2ch0f .emoji-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.e2ch0f .emoji {
+    width: 36px;
+    height: 36px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 36px
+}
+
+.e2ch0f .emoji-btn {
+    width: 21px;
+    height: 21px;
+    display: block;
+    cursor: pointer
+}
+
+.e2ch0f .bot-nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 40px;
+    box-sizing: border-box;
+    height: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.e2ch0f .bot-nav .emoji-icon {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    line-height: 36px;
+    text-align: center
+}
+
+.e2ch0f .bot-nav .emoji-icon svg {
+    width: 24px;
+    height: 24px;
+    margin-top: 7px;
+    fill: var(--k2vkir)
+}
+
+.e2ch0f .bot-nav .emoji-icon:hover svg {
+    fill: var(--pg0941)
+}
+
+.e2ch0f .bot-nav .emoji-icon.active svg {
+    fill: var(--primary-color)
+}

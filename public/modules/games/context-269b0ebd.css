@@ -1,0 +1,21 @@
+.w14hjo3q {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 47.5rem
+}
+
+.w14hjo3q .animatedframes {
+    -webkit-transform: scale(.4);
+    -ms-transform: scale(.4);
+    transform: scale(.4)
+}

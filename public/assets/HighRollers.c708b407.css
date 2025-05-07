@@ -1,0 +1,137 @@
+.sggkqph {
+    --tabhdr: #F6F7FA;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: var(--sub-text-color);
+    cursor: pointer;
+    margin-top: .625rem
+}
+
+.darken .sggkqph {
+    --tabhdr: #24262b
+}
+
+.sggkqph button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    padding: .5rem .9375rem;
+    background-color: var(--tabhdr);
+    border-radius: var(--border-radius)
+}
+
+.sggkqph .icon {
+    width: 1rem;
+    height: 1rem;
+    margin-left: .625rem;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+@media screen and (max-width:621px) {
+    .sggkqph {
+        margin-top: 0
+    }
+}
+
+.syfd3w6 {
+    --tabhdr: #F6F7FA;
+    --whdmoy: #31373d;
+    margin-top: 1.125rem;
+    min-height: 38.75rem;
+    border-radius: var(--border-radius);
+    font-weight: 600
+}
+
+.darken .syfd3w6 {
+    --tabhdr: #24262b;
+    --whdmoy: #f5f6f7
+}
+
+.syfd3w6 .coin {
+    color: var(--whdmoy)
+}
+
+.syfd3w6 .coin .name {
+    display: none
+}
+
+.syfd3w6 .win,
+.syfd3w6 .win .amount {
+    color: var(--primary-color)
+}
+
+.syfd3w6 .lose,
+.syfd3w6 .lose .amount {
+    color: #f53202
+}
+
+.syfd3w6 .game-name {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.syfd3w6 .game-name .game-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .1875rem
+}
+
+.syfd3w6 .game-name .name {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.syfd3w6 tbody tr {
+    cursor: pointer
+}
+
+.syfd3w6.tb-mobile .bet {
+    width: 8.125rem
+}
+
+@media screen and (max-width:621px) {
+    .syfd3w6 .m-width {
+        width: 26%
+    }
+    .syfd3w6 thead th {
+        padding-bottom: 0
+    }
+    .syfd3w6 tbody tr:hover td:first-child {
+        border-radius: var(--border-radius) 0 0 var(--border-radius)
+    }
+    .syfd3w6 tbody tr:hover td:last-child {
+        border-radius: 0 var(--border-radius) var(--border-radius) 0
+    }
+}

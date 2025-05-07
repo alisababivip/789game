@@ -1,0 +1,79 @@
+.u843kj4 {
+    --jeo3dl: #F6F7FA
+}
+
+.darken .u843kj4 {
+    --jeo3dl: #25272C
+}
+
+.u843kj4 .ui-dialog {
+    width: 480px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content
+}
+
+.u843kj4 .ui-dialog .content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1.25rem
+}
+
+.u843kj4 .ui-dialog .top-line {
+    color: var(--title-color)
+}
+
+.u843kj4 .ui-dialog .time-wrap {
+    width: 100%;
+    background: var(--jeo3dl);
+    padding: 1rem
+}
+
+.u843kj4 .ui-dialog .time-wrap .time-line {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.u843kj4 .ui-dialog .time-wrap .time-line:first-child {
+    margin-bottom: 1rem
+}
+
+.u843kj4 .ui-dialog .time-wrap .time-line .left-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.u843kj4 .ui-dialog .time-wrap .time-line .left-box .icon {
+    width: .875rem;
+    margin-right: 5px
+}
+
+.u843kj4 .ui-dialog .time-wrap .time-line .time {
+    color: var(--title-color);
+    font-weight: 700
+}

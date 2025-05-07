@@ -1,0 +1,1 @@
+import{t}from"./toString-968993ce.js";import{b as p}from"./_basePropertyOf-20a61b2b.js";var r={"&amp;":"&","&lt;":"<","&gt;":">","&quot;":'"',"&#39;":"'"},o=p(r);const m=o;var a=/&(?:amp|lt|gt|quot|#39);/g,c=RegExp(a.source);function l(e){return e=t(e),e&&c.test(e)?e.replace(a,m):e}export{l as u};

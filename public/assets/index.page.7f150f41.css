@@ -1,0 +1,10 @@
+.s13bywgy {
+    height: calc(100vh - 64px);
+    white-space: break-spaces
+}
+
+@media screen and (max-width:621px) {
+    .s13bywgy {
+        height: calc(100vh - 7.75rem)
+    }
+}

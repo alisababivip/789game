@@ -1,0 +1,37 @@
+.s12phtuv {
+    --a3yqvn: rgba(165, 168, 179, .45);
+    --6596nj: #F6F7FA;
+    position: fixed;
+    top: 64px;
+    right: 0;
+    bottom: 0;
+    background: var(--a3yqvn);
+    z-index: 110
+}
+
+#root.side-unfold .page-search-pop-wrap {
+    left: 260px
+}
+
+#root.side-fold .page-search-pop-wrap {
+    left: 64px
+}
+
+#root.has-chat .page-search-pop-wrap {
+    right: 360px
+}
+
+.darken .s12phtuv {
+    --a3yqvn: rgba(0, 0, 0, .5);
+    --6596nj: #24262B
+}
+
+.s12phtuv .motion-wrap {
+    min-height: 440px;
+    width: 100%;
+    background-color: var(--6596nj)
+}
+
+.s12phtuv .motion-wrap .search-main-loading {
+    height: 400px
+}

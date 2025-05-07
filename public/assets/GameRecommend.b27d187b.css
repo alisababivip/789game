@@ -1,0 +1,58 @@
+.s1qlggg6 {
+    --g52yms: #000;
+    --12v585s: #ffffff;
+    --1rnmoed: #EAECF3
+}
+
+.darken .s1qlggg6 {
+    --g52yms: #fff;
+    --12v585s: #1C1E22;
+    --1rnmoed: #2D3035
+}
+
+.s1qlggg6 .grid-list {
+    --grid-gap: .75rem;
+    row-gap: 1.25rem
+}
+
+.s1qlggg6.tow-rows .grid-list {
+    --grid-rows: 2
+}
+
+.s1qlggg6 .is-cross {
+    grid-column-start: 1;
+    grid-column-end: 3
+}
+
+.s1qlggg6 .is-cross .game-img-wrap {
+    padding-top: calc(50% - var(--grid-gap) / 2)
+}
+
+.s1qlggg6 .grid-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: -.25rem;
+    right: 0;
+    z-index: 2
+}
+
+.s1qlggg6 .grid-nav .num {
+    display: block;
+    color: var(--primary-color);
+    padding: 0 .625rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    font-size: .875rem;
+    font-weight: 400
+}

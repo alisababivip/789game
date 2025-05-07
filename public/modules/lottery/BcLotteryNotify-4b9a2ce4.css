@@ -1,0 +1,22 @@
+.v15bei0c {
+    display: block;
+    height: 60px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.v15bei0c span {
+    color: var(--primary-color);
+    margin-right: 3px
+}
+
+.v15bei0c img {
+    height: 60px;
+    margin-right: 5px
+}

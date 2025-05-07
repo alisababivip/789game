@@ -1,0 +1,82 @@
+.wu8pmxx {
+    width: 100%;
+    position: relative
+}
+
+@-webkit-keyframes imgscale-wu8pmxx {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: .75
+    }
+    50% {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        opacity: 1
+    }
+    to {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: .75
+    }
+}
+
+@keyframes imgscale-wu8pmxx {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: .75
+    }
+    50% {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        opacity: 1
+    }
+    to {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: .75
+    }
+}
+
+.wu8pmxx:after {
+    content: "";
+    display: block;
+    width: 100%;
+    padding-top: 50%
+}
+
+.wu8pmxx iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none
+}
+
+.wu8pmxx .slots-bg-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden
+}
+
+.wu8pmxx .slots-bg-img img {
+    width: 100%;
+    height: auto;
+    -webkit-animation: imgscale-wu8pmxx 5s linear infinite;
+    animation: imgscale-wu8pmxx 5s linear infinite
+}

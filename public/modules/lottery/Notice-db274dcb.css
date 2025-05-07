@@ -1,0 +1,12 @@
+.d1yw1hvi {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #3bc117;
+    margin-left: .5rem;
+    margin-top: .25rem
+}

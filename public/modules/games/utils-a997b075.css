@@ -1,0 +1,59 @@
+.t1lhp94a {
+    --uwb3x2: #894FFF;
+    --22j7o2: #ECF0F6;
+    --138a45t: #67707B;
+    border-radius: 2.875rem;
+    padding: .1875rem .5rem;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: .875rem;
+    text-align: center
+}
+
+.darken .t1lhp94a {
+    --uwb3x2: #C9ADFF;
+    --22j7o2: #3C3F48;
+    --138a45t: #C2D3E3
+}
+
+.t1lhp94a.style1 {
+    background: rgba(110, 52, 226, .4);
+    color: var(--uwb3x2)
+}
+
+.t1lhp94a.style2 {
+    background: rgba(59, 193, 23, .1);
+    color: #3bc117
+}
+
+.t1lhp94a.style3 {
+    background: rgba(237, 100, 0, .1);
+    color: #ed6400
+}
+
+.t1lhp94a.style4 {
+    background: var(--22j7o2);
+    color: var(--138a45t)
+}
+
+.wd6r1yg {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.wd6r1yg .icon {
+    width: 1.125rem;
+    margin-left: .25rem;
+    cursor: pointer
+}

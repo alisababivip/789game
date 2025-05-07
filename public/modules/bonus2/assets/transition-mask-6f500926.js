@@ -1,0 +1,1 @@
+import{d as o,f as n,a as i}from"./i18n-98ba7270.js";import{c as l}from"./manifest-04ceac01.js";import{v as c,j as p}from"./solid-js-9bdbdf5e.js";var m=i("<div>");const v=a=>{const[r]=c(),[t,e]=p(a,["class"]);return(()=>{var s=m();return o(s,n({get class(){return l(r()?"select-none opacity-65 transition-all":"",t.class)}},e),!1,!1),s})()};export{v as T};
