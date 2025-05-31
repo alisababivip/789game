@@ -9,8 +9,8 @@ services:
       dockerfile: Dockerfile
     environment:
       - ENV_ENVIROMENT=prod
-      - NEXT_PUBLIC_API_URL=https://api.bks1998.online
-      - NEXT_PUBLIC_SITE_URL=https://www.bks1998.online
+      - NEXT_PUBLIC_API_URL=https://api.789casino.space
+      - NEXT_PUBLIC_SITE_URL=https://www.789casino.space
       - NEXT_TELEMETRY_DEBUG=0
     ports:
       - "3022:3000"
