@@ -27,6 +27,6 @@ export enum TRANSACTION_TYPE_ENUM {
   ONLINE_IN_PROMOTION = "Ưu đãi thanh toán trực tuyến",
 }
 
-export const linkPromotion='https://t.me/khuyenmainhancode_bot'
+export const linkPromotion='https://t.me/tgbet_casino_bot'
 
-export const linkTeleGram='https://t.me/CSKH789BET_robot'
+export const linkTeleGram='https://t.me/tgbet_casino_bot'
